@@ -50,7 +50,7 @@ Dependent on system set up the following interactions may be utilised.
 The diagram shows the Mental Health eDischarge (inpatient discharge summary) Document Interactions: Note: The use of the ITK infrastructure interactions are dependant on system configuration.  
 
 
-<img src="images/explore/ITK-Mental Health eDischarge-FHIRInteractions.png" style="width:75%;max-width: 75%;">
+<img src="images/explore/ITK-MH-eDischarge-FHIRInteractions.png" style="width:75%;max-width: 75%;">
 
 
 

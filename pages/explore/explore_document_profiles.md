@@ -17,7 +17,7 @@ FHIR resource profiles combined to support Mental Health eDischarge (inpatient d
 The Bundle consists of the following FHIR Resource Profiles.
 
 - **[ITK-Document-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Document-Bundle-1)** - An NHS Digital Bundle Profile to represent a container to collect a combination of the ITK FHIR Document resources.
-- **[ITK-EDIS-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-EDIS-Composition-1)** - An NHS Digital Profile for Mental Health eDischarge FHIR Documents. 
+- **[ITK-MH-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MH-Composition-1)** - An NHS Digital Profile for Mental Health eDischarge FHIR Documents. 
 - **[CareConnect-ITK-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-Encounter-1)** - A CareConnect derived NHS Digital Profile for encounter. The encounter resource represents an encounter between a care professional and the patient (or patient's record).
 - **[ITK-Medication-List-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-Medication-List-1)** - An NHS Digital Profile for recording a snapshot of the list of Medications for the patient.
 - **[CareConnect-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1)** - A CareConnect Profile for medication statements. The MedicationStatement Resource is a record of a medication that is being consumed by a patient.
@@ -87,11 +87,11 @@ This diagram only goes to one level due to the complexity and size of the docume
 
 <img src="images/explore/Key.png" style="width: 75%;max-width: 75%;"> 
 
-<img src="images/explore/Mental Health eDischarge_message_bundle.png" style="width:80%;max-width: 80%;"> 
+<img src="images/explore/MH-eDischarge_message_bundle.png" style="width:80%;max-width: 80%;"> 
 
 ## ITK Mental Health eDischarge Bundle Example ##
 
-<script src="https://gist.github.com/IOPS-DEV/4c7978a769e995660c41c2c8479b9255.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/f35fd1282d2e594b0b4d07b0cb6a2fec.js"></script>
 
 {% include custom/messaging_overview.svg %}
 
