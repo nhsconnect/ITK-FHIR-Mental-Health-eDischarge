@@ -151,8 +151,8 @@ entries:
         url: /explore_admission_details.html
         output: web
         subfolderitems:
-        - title: Referral details
-          url: /explore_referral_details.html
+        - title: Referrer details
+          url: /explore_referrer_details.html
           output: web
         - title: Safety alerts
           url: /explore_safety_alerts.html
