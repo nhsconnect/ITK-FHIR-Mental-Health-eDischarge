@@ -1,5 +1,5 @@
 ---
-title: "Documents"
+title: "Document"
 tagName: documents
 search: exclude
 permalink: tag_document.html

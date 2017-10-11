@@ -308,8 +308,8 @@ entries:
     - title: Design
       url: /tag_design.html
       output: web
-    - title: Documents
-      url: /tag_documents.html
+    - title: Document
+      url: /tag_document.html
       output: web
     - title: Development
       url: /tag_development.html
