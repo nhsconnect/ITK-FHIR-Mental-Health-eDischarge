@@ -22,7 +22,7 @@ The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/ST
 ## Named Participants ##
 
 - Patient - **Jon Burrows** - [Patient Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
-- Patient's Father (Encounter participant) - **Andrew Burrows** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
+- Patient's Father (Informant) - **Andrew Burrows** - [RelatedPerson Resource](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-RelatedPerson-1)
 - Consultant - **Dr Daniel Beck** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Consultant - **Dr Mike Scott** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Patient's GP (Document recipient) - **Dr James Lozo** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
