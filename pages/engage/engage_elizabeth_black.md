@@ -32,8 +32,8 @@ The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/ST
 - Patient's GP Practice - **MGP Medical Centre** - [Organization Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - Discharging Hospital - **Leeds Mental Health NHS Trust** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
-Dr Daniel Beck interviews Elizabeth on the 12th Feb and notes she appears agitated and denying any thoughts of self-harm. She denies any drug misuse. She is tested and proves negative for banned substances following admission. Dr Daniel Beck makes a diagnosis of Paranoid Schizophrenia and is aware that Elizabeth is frequently non compliant with treatment. Due to poor adherence with treatment she is discharged from hospital subject to a Community Treatment Order and warned that she is subject to recall to hospital if she does not adhere to treatment.
-Jon is discharged by Dr Mike Scott on the 5th March who sends a copy of the discharge to Elizabeth's GP (Dr James Lozo) and to Mrs Gillingham the Community Team member.
+Dr Daniel Beck interviews Elizabeth on the 12th Feb and notes she appears agitated and denying any thoughts of self-harm. She denies any drug misuse. She is tested and proves negative for banned substances following admission. Dr Daniel Beck makes a diagnosis of Paranoid Schizophrenia and is aware that Elizabeth is frequently non compliant with treatment having previously been prescribed Olanzapine. This treatment is continued while she is in hospital with an addition of Diazepam with instructions to continue for 7 days after discharge, but due to poor adherence with treatment, she is discharged from hospital subject to a Community Treatment Order and warned that she is subject to recall to hospital if she does not adhere to treatment.
+Elizabeth is discharged by Dr Mike Scott on the 5th March who sends a copy of the discharge to Elizabeth's GP (Dr James Lozo) and to Mrs Gillingham the Community Team member.
 
 ## Example Instance of Scenario ##
 

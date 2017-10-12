@@ -26,7 +26,7 @@ The Inpatient stay is carried in the [Encounter Resource](https://fhir.nhs.uk/ST
 - Consultant - **Dr Daniel Beck** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Consultant - **Dr Mike Scott** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 - Patient's GP (Document recipient) - **Dr James Lozo** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- Community Team member (Document recipient) - **Mrs Gay Gillingham** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
+- Community Team manager (Document recipient) - **Mrs Gay Gillingham** - [Practitioner Resource](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
 
 ## Named Organisations ##
 
