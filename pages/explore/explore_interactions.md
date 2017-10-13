@@ -21,19 +21,19 @@ This section provides ITK Mental Health eDischarge implementers with the informa
 The ITK Mental Health eDischarge is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and supports multiple interactions. 
 
 ---------
-## DOC-ToC-Primary-Recipient-Mental Health eDischarge-1 Interaction ##
+## DOC-ToC-Primary-Recipient-MH-eDischarge-1 Interaction ##
 
 The sending hospital system will construct an Mental Health eDischarge (inpatient discharge summary) FHIR Document and send it to the primary recipient's receiving system.
 
-- Sender: Hospital sending system
+- Sender: Hospital Sending system
 - Receiver: Mental Health eDischarge Recipient system
 - Message: Wire Format: TOC-Mental Health eDischarge-1
 
-## DOC-ToC-Copy-Recipient-Mental Health eDischarge-1 Interaction ##
+## DOC-ToC-Copy-Recipient-MH-eDischarge-1 Interaction ##
 
 The sending hospital system will construct an Mental Health eDischarge (inpatient discharge summary) FHIR Document and send it to the copy recipient's receiving system. 
 
-- Sender: Hospital sending system
+- Sender: Hospital Sending System
 - Receiver: Mental Health eDischarge Recipient system
 - Message: Wire Format: TOC-Mental Health eDischarge-1
 
