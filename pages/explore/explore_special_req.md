@@ -1,7 +1,7 @@
 ---
 title: Special Requirements Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_special_req.html
 summary: "Gives information about the Special requirements section"

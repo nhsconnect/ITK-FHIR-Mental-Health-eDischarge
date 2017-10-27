@@ -1,7 +1,7 @@
 ---
 title: Family history Section
 keywords:  messaging, sections
-tags: [fhir,messaging,sections]
+tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
 permalink: explore_family_history.html
 summary: "Gives information about the Family history section"
