@@ -72,4 +72,3 @@ This is profiled as the [ITK-MH-Compostion](https://fhir.nhs.uk/STU3/StructureDe
 {% include custom/section.warnbanner.html %}
 
 
-{% include custom/messaging_overview.svg %}

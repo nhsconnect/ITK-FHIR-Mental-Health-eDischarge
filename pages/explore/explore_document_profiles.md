@@ -93,6 +93,6 @@ This diagram only goes to one level due to the complexity and size of the docume
 
 <script src="https://gist.github.com/IOPS-DEV/f35fd1282d2e594b0b4d07b0cb6a2fec.js"></script>
 
-{% include custom/messaging_overview.svg %}
+
 
 

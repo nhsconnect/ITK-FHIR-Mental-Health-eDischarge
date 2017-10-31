@@ -9,7 +9,7 @@ summary: "ITK Mental Health eDischarge Interactions"
 
 {% include custom/search.warnbanner.html %}
 
-{% include custom/messaging_overview.svg %}
+
 
 ## ITK Mental Health eDischarge Interactions Overview ##
 This section provides ITK Mental Health eDischarge implementers with the information required to utilise the ITK Mental Health eDischarge Interactions.
