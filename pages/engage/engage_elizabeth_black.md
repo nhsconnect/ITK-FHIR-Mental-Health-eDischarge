@@ -38,3 +38,11 @@ Elizabeth is discharged by Dr Mike Scott on the 5th March who sends a copy of th
 ## Example Instance of Scenario ##
 
 <script src="https://gist.github.com/IOPS-DEV/12fe5deaca548bbcb5f0d8db00f08989.js"></script>
+
+## Example Rendered Instance of Scenario ##
+
+This is a rendered example of the above XML example using an [exemplar stylesheet](https://github.com/nhsconnect/ITK3-FHIR-Documents-Renderer/tree/develop) created by NHS Digital. This style is currently draft and available for use on a AS IS BASIS. 
+
+Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
+
+<img src="images/engage/elizabeth_01.png" style="width:100%;max-width: 100%;">
