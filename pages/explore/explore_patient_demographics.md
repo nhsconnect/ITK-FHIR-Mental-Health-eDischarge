@@ -10,44 +10,106 @@ summary: "Gives information about the patient"
 
 
 ## Patient Demographics Section Content##
-
-The Patient demographics section is rendered from the patient resource.The resource used is:
+The Patient Demographics section contains information about the patient. Elements should be formatted as subheadings in any html sent:
  
-- **[CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)** - A CareConnect Profile for patient. The Patient resource represents the patient involved in the provision of healthcare related services.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Patient demographics</td>
+   <td>Patient details and contact information.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Patient name</td>
+   <td>The full name of the patient</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>The legal name of the patient from the Patient Demographics Service (PDS), or the name volunteered by the patient.</td>
+  </tr>
+  <tr>
+   <td>Patient preferred name</td>
+   <td>The name by which a patient wishes to be addressed.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>The preferred name volunteered by the patient and recorded on the Patient Administration System (PAS), or a preferred name given by PDS that the patient has asked to be called by.</td>
+  </tr>
+  <tr>
+   <td>Date of birth</td>
+   <td>The date of birth of the patient.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>The date of birth of the patient taken from PDS, or the date of birth volunteered by the patient (as recorded on the PAS (Patient Administration System). The date of birth will be as precise as possible, but should at least contain a year</td>
+  </tr>
+  <tr>
+   <td>Gender</td>
+   <td>The patient's gender.  As the patient wishes to portray themselves.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>0 Not known1 Male2 Female9 Not specified</td>
+  </tr>
+  <tr>
+   <td>NHS number</td>
+   <td>The unique identifier for a patient within the NHS in England and Wales.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>"Sent as per the NHS Data Dictionary NHS number. Traced and verified NHS Numbers only should be used i.e. NHS value 01. If there is no NHS number then this data item should be reported as null and other unique identifiers will need to flow.</td> <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"/> number status indicator code:</td>
+<tr>
+   <td>Other identifier</td>
+   <td>Country specific or local identifier, e.g., Community Health Index (CHI) in Scotland. Two data items: type of identifier and identifier.</td>
+   <td>0 to many</td>
+   <td>required</td>
+   <td>Recorded as per NHS Data Dictionary: - Local patient identifier, -Local patient identified (extended), -Health and Care number, -Community Health Index number</td>
+  </tr>
+  <tr>
+   <td>Patient address</td>
+   <td>Patient's usual place of residence.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>Sent in accordance with the NHS Data Dictionary: patient usual address. May be auto generated from PDS, GP referral record, or from the local PAS.</td>
+  </tr>
+  <tr>
+   <td>Patient email address</td>
+   <td>Email address of the patient</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>Set in accordance with the NHS Data Dictionary: contact email address (patient or lead contact). May be auto generated from PDS, GP referral record, or from the local PAS.</td>
+  </tr>
+  <tr>
+   <td>Patient telephone number</td>
+   <td>Telephone contact details of the patient. To include, e.g., mobile, work and home number if available.</td>
+   <td>0 to many</td>
+   <td>optional</td>
+   <td>Contact details may come from PDS, or those recorded on the local PAS.Both the actual contact number and its use (work number, home number, mobile number etc.) should be sent.</td>
+  </tr>
+  <tr>
+   <td>Relevant contacts</td>
+   <td>Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator, Independent Mental Capacity Advocate (IMCA) etc.Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>This will be free text.Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator/Key worker, Independent Mental Capacity Advocate (IMCA) etc.*Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
+  </tr>
+ </tbody>
+</table>
 
-Items in bold are subheadings and should be formatted as such when rendered: 
 
-<ul>
-<li><b>Patient name</b></li>
-The full name of the patient.
-Also patient preferred name: the name by which a patient wishes to be addressed.
-<li><b>Date of birth</b></li>
-The date of birth of the patient.
-<li><b>Patient sex</b></li>
-Sex at birth. Determines how the individual will be treated clinically.
-<li><b>Gender</b></li>
-As the patient wishes to portray themselves.
-<li><b>Ethnicity</b></li>
-The ethnicity of a person as specified by the person.
-<li><b>NHS number</b></li>
-The unique identifier for a patient within the NHS in England and Wales.
-<li><b>Other identifier</b></li>
-Country specific or local identifier, eg, Community Health Index (CHI) in Scotland.
-Two data items:
-<ol>
-<li>type of identifier</li>
-<li>identifier</li>
-</ol>
-<li><b>Patient address</b></li>
-Patient usual place of residence.
-<li><b>Patient telephone number</b></li>
-Telephone contact details of the person. To include, eg, mobile, work and home number if available.
-Two data items:
-<ol><li>type</li>
-<li>number</li>
-</ol>
-<li><b>Patient email address</b></li>
-Email address of the patient.</ul>
 
 
 ## Example Patient Demographics Using Patient Resource ##
