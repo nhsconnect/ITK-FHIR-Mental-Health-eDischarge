@@ -23,7 +23,6 @@ The Clinical summary section carries a narrative summary of the episode. Where p
 		</tr>
 	</thead>
  <tbody>
- <tbody>
   <tr>
    <td>Clinical summary</td>
    <td>A brief description of the encounter.</td>
