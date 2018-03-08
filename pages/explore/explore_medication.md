@@ -136,7 +136,7 @@ The Medications and medical devices section carries information about the patien
    <td>Recommendation of the time period for which the medication should be continued, including direction not to discontinue.</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>Choice of text Continue indefinitely [The medication should be continued indefinitely.]<br/>Do not discontinue [The medication should be continued indefinitely and the prescriber highly recommends that it should never be discontinued. This is an AoMRC Clinical Headings recommendation.]<br/Stop when course complete. [The medication should be stopped when the currently prescribed course has been completed.]<br/>Duration: Allowed values: years, months, weeks, days, hours >=0 days"</td>
+   <td>Choice of text Continue indefinitely [The medication should be continued indefinitely.]<br/>Do not discontinue [The medication should be continued indefinitely and the prescriber highly recommends that it should never be discontinued. This is an AoMRC Clinical Headings recommendation.]<br/>Stop when course complete. [The medication should be stopped when the currently prescribed course has been completed.]<br/>Duration: Allowed values: years, months, weeks, days, hours >=0 days"</td>
   </tr>
   <tr>
    <td>Additional instruction </td>
