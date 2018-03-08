@@ -43,7 +43,7 @@ This section gives information on illness in family relations relevant to the he
    <td>The record of relevant illness in family relations deemed to be significant to the care or health of the patient, including mental illness and suicide, genetic information etc.</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text and/or coded text (SNOMED CT). 999000771000000106 | Family history simple reference set (foundation metadata concept) |</td>
+   <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text or  text derived from (SNOMED CT). 999000771000000106 | Family history simple reference set (foundation metadata concept) |</td>
   </tr>
  </tbody>
 </table>
