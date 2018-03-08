@@ -52,7 +52,7 @@ The Medications and medical devices section carries information about the patien
    <td>May be generic name or brand name (as appropriate).Mandatory medication name coded using a SNOMED CT/dm+d term where possible, allowing plain text for historical/patient reported items , extemporaneous preparations or those not registered in dm+d. Comment: e.g."Citalopram tab 20mg", "Trimethoprim"</td>
    <td>1 only</td>
    <td>mandatory</td>
-   <td>Choice of Text ot text derived from SNOMED CT - constraint: MedicationName. Any AMP/VMP/VTM/AMPP/VMPP subsets from the dm+d terminology. NHS dm+d AMP ::352201000001139 NHS dm+d AMPP ::352401000001135 NHS dm+d VMP ::352701000001133 NHS dm+d VMPP ::352301000001131 NHS dm+d VTM ::352601000001138. Constraint binding: [dm+d]subset=NHS_dm+d</td>
+   <td>Choice of Text or text derived from SNOMED CT - constraint: MedicationName. Any AMP/VMP/VTM/AMPP/VMPP subsets from the dm+d terminology. NHS dm+d AMP ::352201000001139 NHS dm+d AMPP ::352401000001135 NHS dm+d VMP ::352701000001133 NHS dm+d VMPP ::352301000001131 NHS dm+d VTM ::352601000001138. Constraint binding: [dm+d]subset=NHS_dm+d</td>
   </tr>
   <tr>
    <td>Form</td>
@@ -73,10 +73,7 @@ The Medications and medical devices section carries information about the patien
    <td>The anatomical site at which the medication is to be administered.  Comment: e.g. "Left eye"</td>
    <td>0 to 1</td>
    <td>optional</td>
-   <td>"Text</td>
-  </tr>
-  <tr>
-   <td>Text derived from SNOMED CT -  constraint: SiteOfMedicationAdministration. Any valid site for the administration of a medication. Constraint binding: [SNOMED-CT]subset= SiteOfMedicationAdministration</td>
+   <td>Text or text derived from SNOMED CT -  constraint: SiteOfMedicationAdministration. Any valid site for the administration of a medication. Constraint binding: [SNOMED-CT]subset= SiteOfMedicationAdministration</td>
   </tr>
   <tr>
    <td>Method</td>
