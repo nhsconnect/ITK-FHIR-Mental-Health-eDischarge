@@ -43,7 +43,7 @@ The Allergies and adverse reactions section carries information about the patien
    <td>The agent such as food, drug or substances that has caused or may cause an allergy, intolerance or adverse reaction in this patient. Or "No known drug allergies or adverse reactions" Or "Information not available"</td>
    <td>1 only</td>
    <td>mandatory</td>
-   <td>Choice of text or text derived from SNOMED CT -  constraint: SNOMED CT:NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,Or alternatively one of the following statements:""No known drug allergies or adverse reactions"" Or ""Information not available"" (Comment coding for this should be reviewed as the GP2GP causative agent work reaches completion)</td>
+   <td>Choice of text or text derived from SNOMED CT -  constraint: SNOMED CT:NHS dm+d TF,NHS dm+d TFG,NHS dm+d VMP,NHS dm+d AMP,NHS dm+d Ingredients,NHS dm+d Combination drug VTMs,Or alternatively one of the following statements:"No known drug allergies or adverse reactions" Or "Information not available" (Comment coding for this should be reviewed as the GP2GP causative agent work reaches completion)</td>
   </tr>
   <tr>
    <th>Reaction details cluster</th>
