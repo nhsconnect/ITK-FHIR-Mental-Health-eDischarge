@@ -10,15 +10,43 @@ summary: "Gives information about the Individual requirements section"
 {% include custom/section.warnbanner.html %}
 
 ## Individual Requirements Content ##
-The Individual requirements section carries information about the individual requirements of the patient,items in bold are subheadings and should be formatted as such in any html sent:
+The Individual requirements section carries information about the individual requirements of the patient. Elements should be rendered as subheadings in any html sent.
 
-<ul><li>Individual requirements - Eg level of language (literacy); preferred language (interpreter required)/ambulance required/other transport arrangements required/any other special requirements.</li>
-Includes:
-<ul><li>preferred language</li>
-<li>interpreter required</li>
-<li>advocate required</li>
-<li>transport required, etc.</li>Individual
-</ul></ul>
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Individual requirements </td>
+   <td>Individual requirements that a person has, e.g. communication, cultural, cognitive or mobility needs. </td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Individual requirements</td>
+   <td>Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>"Information volunteered by the person or their representative or carer, or known about locally.Text or Text derived from (SNOMED CT)</td>
+  </tr>
+ </tbody>
+</table>
+
 
 ##  Example Individual Requirements Section ##
 
