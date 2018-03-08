@@ -84,7 +84,7 @@ A list of individuals to receive a copy of this communication. Elements should b
 
 ## Example Distribution List Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/8d12d4ff8d08f694a4a4cec3dfd352d0.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/de78a85184d5a7f74d99e4cc4c358c26.js"></script>
 
 
 
