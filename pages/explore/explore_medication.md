@@ -25,7 +25,6 @@ The Medications and medical devices section carries information about the patien
 		</tr>
 	</thead>
  <tbody>
- <tbody>
   <tr>
    <td>Medications and Medical Devices </td>
    <td>The details of and instructions for medications and medical equipment the patient is using.</td>
@@ -146,7 +145,7 @@ The Medications and medical devices section carries information about the patien
    <td>"TextRuntime name constraint:<br/>Additional instruction [Additional multiple dosage or administration instructions as plain text. This may include guidance to the prescriber, patient or person administering the medication. In some settings, specific Administration Instructions may be re-labelled as "Patient advice' or 'Dispensing Instruction' to capture these flavours of instruction.]<br/>Dispensing instruction [Multiple plain text to record complex dispensing arrangements, particularly for Controlled Drug instalment dispensing. 'Dispensing instructions' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]<br/>Patient advice [Multiple plain text instructions intended for patient or carer. 'Patient advice' may be used as a specific label to overwrite 'Additional instructions' to align with legacy GP system behaviour.]<br/>Monitoring [Special instructions related to monitoring of medication, such as lab tests.]"</td>
   </tr>
   <tr>
-   <th>Course details cluster</td>
+   <th>Course details cluster</th>
    <th>Details of the overall course of medication.</th>
    <th>0 to 1</th>
    <th>optional</th>
