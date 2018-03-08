@@ -10,10 +10,56 @@ summary: "Gives information about the Diagnoses section"
 {% include custom/section.warnbanner.html %}
 
 ## Diagnoses Section Content##
-The Diagnoses section carries information about Diagnoses such as:
+The Diagnoses section carries information about Diagnoses. Elements should be rendered as subheadings in any html sent.
 
-Confirmed diagnoses; active diagnoses being treated.
-Including the stage of the disease where relevant.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Diagnoses </td>
+   <td>A list of the patient's diagnoses.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Diagnosis name</td>
+   <td>Confirmed diagnosis (or symptom); active diagnosis being treated.</td>
+   <td>1 only</td>
+   <td>mandatory</td>
+   <td>SNOMED CT concept and/or free text. By preference the diagnosis or symptom is represented by a SNOMED CT concept. If this is not possible, a free text description of the diagnosis or symptom may be given.</td>
+  </tr>
+  <tr>
+   <td>Stage of disease / disorder</td>
+   <td>Stage of the disease, where relevant</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>Text.</td>
+  </tr>
+  <tr>
+   <td>Comment</td>
+   <td>Supporting text may be given covering diagnosis confirmation, active diagnosis being treated.</td>
+   <td>0 to 1</td>
+   <td>optional</td>
+   <td>Free text. This is the place to record differential and excluded diagnosis.</td>
+  </tr>
+ </tbody>
+</table>
 
 
 ##  Example Diagnoses Section ##
