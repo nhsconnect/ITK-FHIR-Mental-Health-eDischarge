@@ -10,14 +10,70 @@ summary: "Gives information about the Admission details section"
 {% include custom/section.warnbanner.html %}
 
 ## Admission Details Section Content##
-The Admission details section carries information about the patient's admission, items in bold are subheadings and should be formatted as such in any html sent:
 
-- **Admission method** How the patient was admitted to hospital. Eg: elective,
-emergency, maternity, transfer, etc.
-- **Source of admission** Where the patient was immediately prior to admission, eg, usual place of residence, temporary place of residence, penal establishment. National code.
-- **Patient location** This is the physical location of the patient. For inpatient, eg, hospital ward, bed, theatre. For ambulatory care, eg, health centre, clinic, resource centre, patient’s home.
-- **Date of admission** Date patient admitted to hospital.
-- **Time of admission** Time patient admitted to hospital.
+The Admission details section carries information about the patient's admission. Elements should be rendered as subheadings in any html sent.
+<table style="width:100%;max-width: 100%;">
+	<thead>
+		<tr>
+			<th width="18%">Section</th>
+			<th width="30%">Description</th>
+			<th width="11%">Cardinality</th>
+			<th width="11%">MRO*</th>
+			<th width="30%">Values</th>
+		</tr>
+	</thead>
+ <tbody>
+  <tr>
+   <td>Admission details</td>
+   <td>Details of the patient's admission and reason for admission</td>
+   <td>&nbsp;</td>
+   <td>required</td>
+   <td>&nbsp;</td>
+  </tr>
+		<tr>
+			<th>Element</th>
+			<th>Description</th>
+			<th>Cardinality</th>
+			<th>MRO*</th>
+			<th>Values</th>
+		</tr>
+  <tr>
+   <td>Reason for admission</td>
+   <td>The health problems and issues experienced by the patient that prompted the decision to admit to hospital e.g. chest pain, mental health crisis, blackout, fall,  a specific procedure, intervention, investigation or treatment, non compliance with treatment.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>May be a text derived from a SNOMED CT concept and/or free text.</td>
+  </tr>
+  <tr>
+   <td>Admission method</td>
+   <td>How the patient was admitted to hospital. For example: elective, emergency, maternity, transfer etc.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>One of the codes and description from the NHS Data Dictionary Admission Method</td>
+  </tr>
+  <tr>
+   <td>Legal Status on admission</td>
+   <td>Record if the patient was admitted as Informal or formal/detained.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>Record if the patient was admitted as Informal or formal/detained.</td>
+  </tr>
+  <tr>
+   <td>Source of admission</td>
+   <td>Where the patient was immediately prior to admission, e.g. usual place of residence, temporary place of residence, penal establishment. National code.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>One of the codes and description from the NHS Data Dictionary Source of Admission</td>
+  </tr>
+  <tr>
+   <td>Date/time of admission</td>
+   <td>Date and time patient admitted to hospital.</td>
+   <td>0 to 1</td>
+   <td>required</td>
+   <td>The date of admission as recorded on the Patient Administration System (PAS)</td>
+  </tr>
+ </tbody>
+</table>
 
 ##  Example Admission Details Section ##
 
