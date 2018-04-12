@@ -26,6 +26,7 @@ This section lists the following
 This diagram shows a typical text section.
 Note: the examples of section HTML in this specification show only example html format such as tables. This is an exemplar format. There is no mandated format for the section HTML. 
 
+
 <img src="images/explore/section_description.png" style="width:90%;max-width: 90%;"/>
  
 ## Headings Used By Mental Health eDischarge ##
@@ -249,7 +250,8 @@ Note: the examples of section HTML in this specification show only example html 
 
 ## Overview of Mental Health eDischarge Sections and Coded profiles ##
 This diagram illustrates the sections used in Mental Health eDischarge and which sections allow coded representation of the section text. 
-Due to the size of the image, this example is best viewed with the navigation side bar switched off <img src="images/engage/nav_shot.png" style="width:8%;max-width: 8%;">.
+
+<a href="images/explore/MH_composition_overview.png" target="_blank" style="width: 100%;max-width: 100%;"><b>Click to open in new window</b></a>
 
 <img src="images/explore/MH_composition_overview.png" style="width:auto;height: auto;"/>
 
