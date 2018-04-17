@@ -16,6 +16,12 @@ This is the MessageDefinition instance for the ITK 3 Mental Health eDischarge do
 - **Sender:**  Sending System
 - **Receiver:** Recipient System
 - **MessageDefinition:** ITK-MH-eDischarge-MessageDefinition-Instance-1
+- 
+The message definition conforms to the following profile:[ITK-MessageDefinition-1](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MessageDefinition-1)
+
+The message definition is available as a HTML rendered version for human consumption [Mental Health eDischarge MessageDefinition rendered](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-MH-eDischarge-MessageDefinition-Instance-1) 
+
+The xml version for machine processing is available as a GIST file
 
 
 <script src="https://gist.github.com/IOPS-DEV/f5c4265bc3b719286b7728c0cbe5e7ec.js"></script>
