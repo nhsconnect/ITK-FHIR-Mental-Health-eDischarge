@@ -4,14 +4,14 @@ keywords:  messaging, message definitions
 tags: [fhir,messaging,messagedefinitions]
 sidebar: foundations_sidebar
 permalink: explore_MH_eDischarge_def.html
-summary: "eDischarge Message Definition"
+summary: "Mental Health eDischarge Message Definition"
 ---
 
 {% include custom/search.warnbanner.html %}
 
-## eDischarge Definition Overview ##
+## Mental Health eDischarge Message Definition Overview ##
 
-This is the MessageDefinition instance for the ITK 3 Mental Health eDischarge document.
+This is the MessageDefinition instance for the ITK3 Mental Health eDischarge document.
 
 - **Sender:**  Sending System
 - **Receiver:** Recipient System

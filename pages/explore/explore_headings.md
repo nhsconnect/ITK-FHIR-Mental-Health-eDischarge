@@ -13,7 +13,7 @@ summary: "Overview of the Mental Health eDischarge headings"
 
 ## Overview ##
 
-This section provides a list of the AMoRC headings used for text sections in the ITK FHIR Mental Health eDischarge based on the "Standards for the clinical structure and content of patient records" documentation. 
+This section provides a list of the PRSB headings used for text sections in the ITK FHIR Mental Health eDischarge based on the "Standards for the clinical structure and content of patient records" documentation. 
 
 This section lists the following
 
