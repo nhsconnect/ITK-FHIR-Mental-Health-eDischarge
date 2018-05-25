@@ -10,7 +10,7 @@ summary: "Gives information about the Special requirements section"
 {% include custom/section.warnbanner.html %}
 
 ## Special Requirements Content ##
-The Special requirements section carries information about the special requirements of the patient,items in bold are subheadings and should be formatted as such in any html sent:
+The Special requirements section carries information about the special requirements of the patient,items in bold are subheadings and should be formatted as such in any HTML sent:
 
 <ul><li>Special requirements - Eg level of language (literacy); preferred language (interpreter required)/ambulance required/other transport arrangements required/any other special requirements.</li>
 Includes:

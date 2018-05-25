@@ -11,7 +11,7 @@ summary: "Gives information about the Admission details section"
 
 ## Admission Details Section Content##
 
-The Admission details section carries information about the patient's admission. Elements should be rendered as subheadings in any html sent.
+The Admission details section carries information about the patient's admission. Elements should be rendered as subheadings in any HTML sent.
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>

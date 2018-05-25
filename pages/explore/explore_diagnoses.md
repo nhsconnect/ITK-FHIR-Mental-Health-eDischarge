@@ -10,7 +10,7 @@ summary: "Gives information about the Diagnoses section"
 {% include custom/section.warnbanner.html %}
 
 ## Diagnoses Section Content##
-The Diagnoses section carries information about Diagnoses. Elements should be rendered as subheadings in any html sent.
+The Diagnoses section carries information about Diagnoses. Elements should be rendered as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

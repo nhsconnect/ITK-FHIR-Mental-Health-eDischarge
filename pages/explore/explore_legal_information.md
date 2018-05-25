@@ -11,7 +11,7 @@ summary: "Gives information about the Legal information section"
 
 ## Legal Information Section Content ##
 
-This section contains Legal information captured relating to patient care, such as consent to treatment and mental capacity. Elements should be rendered as subheadings in any html sent.
+This section contains Legal information captured relating to patient care, such as consent to treatment and mental capacity. Elements should be rendered as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>

@@ -10,7 +10,7 @@ summary: "Gives information about the Individual requirements section"
 {% include custom/section.warnbanner.html %}
 
 ## Individual Requirements Content ##
-The Individual requirements section carries information about the individual requirements of the patient. Elements should be rendered as subheadings in any html sent.
+The Individual requirements section carries information about the individual requirements of the patient. Elements should be rendered as subheadings in any HTML sent.
 
 <table style="width:100%;max-width: 100%;">
 	<thead>
