@@ -103,10 +103,10 @@ The Patient Demographics section contains information about the patient. Element
   </tr>
   <tr>
    <td>Relevant contacts</td>
-   <td>Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator, Independent Mental Capacity Advocate (IMCA) etc.Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
+   <td>Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependents, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator, Independent Mental Capacity Advocate (IMCA) etc.Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>This will be free text.Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependants, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator/Key worker, Independent Mental Capacity Advocate (IMCA) etc.*Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
+   <td>This will be free text.Include the most important contacts including:*Personal contacts e.g., next of kin, in case of emergency contact, lasting power of attorney, dependents, informal carers etc.*Health/care professional contacts e.g., social worker, hospital clinician, care coordinator/Key worker, Independent Mental Capacity Advocate (IMCA) etc.*Name, relationship, role (if formal role), contact details and availability, eg out of hours.</td>
   </tr>
  </tbody>
 </table>
