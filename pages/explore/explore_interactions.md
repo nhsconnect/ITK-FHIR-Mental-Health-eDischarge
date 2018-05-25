@@ -4,21 +4,21 @@ keywords:  messaging, interactions
 tags: [fhir,messaging,interactions]
 sidebar: foundations_sidebar
 permalink: explore_interactions.html
-summary: "ITK Mental Health eDischarge Interactions"
+summary: "ITK3 Mental Health eDischarge Interactions"
 ---
 
 {% include custom/search.warnbanner.html %}
 
 
 
-## ITK Mental Health eDischarge Interactions Overview ##
-This section provides ITK Mental Health eDischarge implementers with the information required to utilise the ITK Mental Health eDischarge Interactions.
+## ITK3 Mental Health eDischarge Interactions Overview ##
+This section provides ITK3 Mental Health eDischarge implementers with the information required to utilise the ITK3 Mental Health eDischarge Interactions.
 
 **Note 1:** When using MESH, additional MESH acknowledgements and responses will be available.  The MESH acknowledgements and responses are not defined in this specification
 
 **Note 2:** Messages are structured in eXtensible Markup Language (XML) only.
 
-The ITK Mental Health eDischarge is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and supports multiple interactions. 
+The ITK3 Mental Health eDischarge is based on the [HL7 FHIR STU3 Messaging Implementation](http://hl7.org/fhir/messaging.html) and supports multiple interactions. 
 
 ---------
 ## DOC-ToC-Primary-Recipient-MH-eDischarge-1 Interaction ##
@@ -47,7 +47,7 @@ Dependent on system set up the following interactions may be utilised.
 
 ## Mental Health eDischarge (inpatient discharge summary) ITK FHIR Document Interactions Diagram  ##
 
-The diagram shows the Mental Health eDischarge (inpatient discharge summary) Document Interactions: Note: The use of the ITK infrastructure interactions are dependant on system configuration.  
+The diagram shows the Mental Health eDischarge (inpatient discharge summary) Document Interactions: Note: The use of the ITK3 infrastructure interactions are dependent on system configuration.  
 
 
 <img src="images/explore/ITK-MH-eDischarge-FHIRInteractions.png" style="width:75%;max-width: 75%;">
