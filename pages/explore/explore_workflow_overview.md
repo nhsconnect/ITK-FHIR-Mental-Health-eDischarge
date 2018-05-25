@@ -13,7 +13,7 @@ summary: "Overview of the work flow section"
 
 ## ITK Work Flow For Mental Health eDischarge ##
 
-This section documents work flow associated with the Mental Health eDischarge. The subsections show the resources that may be associated with work flow.
+This section documents the work flow associated with the Mental Health eDischarge. The subsections show the resources that may be associated with work flow.
  
 
 
