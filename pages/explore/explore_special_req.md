@@ -28,7 +28,7 @@ Includes:
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Mental Health eDischarge does not currently support coded Special requirements information.
+- The ITK3 FHIR Mental Health eDischarge does not currently support coded Special requirements information.
 
 
 

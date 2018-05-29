@@ -112,7 +112,7 @@ This section contains Legal information captured relating to patient care, such 
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK FHIR Mental Health eDischarge does not currently support a coded clinical summary.
+- The ITK3 FHIR Mental Health eDischarge does not currently support a coded clinical summary.
 
 
 

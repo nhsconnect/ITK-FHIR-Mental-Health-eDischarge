@@ -1,5 +1,5 @@
 ---
-title: Introduction to ITK Mental Health eDischarge
+title: Introduction to ITK3 Mental Health eDischarge
 keywords: homepage
 tags: [overview]
 sidebar: overview_sidebar
