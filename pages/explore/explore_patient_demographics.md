@@ -71,7 +71,7 @@ The Patient Demographics section contains information about the patient. Element
    <td>The unique identifier for a patient within the NHS in England and Wales.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>"Sent as per the NHS Data Dictionary NHS number. Traced and verified NHS Numbers only should be used i.e. NHS value 01. If there is no NHS number then this data item should be reported as null and other unique identifiers will need to flow. <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"/> number status indicator code:</td>
+   <td>Sent as per the NHS Data Dictionary NHS number. Traced and verified NHS Numbers only should be used i.e. NHS value 01. If there is no NHS number then this data item should be reported as null and other unique identifiers will need to flow. <a href="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"/> number status indicator code:</td>
 </tr>
 <tr>
    <td>Other identifier</td>
