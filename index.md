@@ -19,7 +19,7 @@ summary: A brief introduction to getting started with the ITK3 Mental Health eDi
 
 ## Introduction ##
 
-The Transfer Of Care Mental Health eDischarge  Specification supports the following care communications:
+The Transfer of Care Mental Health eDischarge  Specification supports the following care communications:
 
 **Mental Health eDischarge (discharge summary to GP for mental health adult patients) Document** –   - A FHIR Document containing Transfer of Care information supporting a discharge summary to GP for mental health adult patients..
    
