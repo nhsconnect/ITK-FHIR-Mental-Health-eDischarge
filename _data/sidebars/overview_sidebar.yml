@@ -1,6 +1,6 @@
 entries:
-- title: ITK3 FHIR Mental Health eDischarge 
-  product: ITK3 FHIR Mental Health eDischarge
+- title: ITK3 Mental Health eDischarge 
+  product: ITK3 Mental Health eDischarge
   version: 2.2.0-alpha
   levels: one
   folders:
