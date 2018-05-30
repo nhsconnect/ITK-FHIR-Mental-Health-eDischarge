@@ -42,7 +42,7 @@ The Individual requirements section carries information about the individual req
    <td>Individual requirements that a person has. These may be communication, cultural, cognitive or mobility needs.</td>
    <td>0 to 1</td>
    <td>required</td>
-   <td>"Information volunteered by the person or their representative or carer, or known about locally.Text or Text derived from (SNOMED CT)</td>
+   <td>"Information volunteered by the person or their representative or carer, or known about locally. Text or Text derived from (SNOMED CT)</td>
   </tr>
  </tbody>
 </table>
