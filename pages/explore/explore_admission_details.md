@@ -63,7 +63,7 @@ The Admission details section carries information about the patient's admission.
 			<td>Record if the patient was admitted as Informal or formal/detained.</td>
 			<td>0 to 1</td>
 			<td>R</td>
-			<td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td>
+			<td>Text only</td>
 		</tr>
 		<tr>
 			<td>Source of admission</td>
