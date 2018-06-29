@@ -192,7 +192,7 @@ The allergy record is constructed as a single list for Transfer of Care Document
 
 ## How to Represent "No Known Allergies" ## 
 
-If relevant investigations and observations have been carried out and no allergies or adverse reactions identified then this heading should appear in the document with the text “No known drug allergies or adverse reactions”.If no information is available about allergies or adverse reactions (but allergies or adverse reactions may have been identified), then this heading should appear in the eDischarge summary with the text “Information not available”
+If relevant investigations and observations have been carried out and no allergies or adverse reactions identified then this heading should appear in the document with the text “No known drug allergies or adverse reactions”.If no information is available about allergies or adverse reactions (but allergies or adverse reactions may have been identified), then this heading should appear in the Mental Health eDischarge with the text “Information not available”
 <br/>First option: Send AllergyIntolerance Resource with <b>AllergyIntolerance.code</b> populated with SNOMED CT concept for 'No known drug allergies or adverse reactions' and replicate this in <b>Composition,section.text</b>. If there are active allergy records, these positive presence of allergies should not be sent with 'No known drug allergies or adverse reactions'. Other option is to use the list resource and use List.emptyReason' to send 'No known drug allergies or adverse reactions' as text and replicate this in <b>Composition,section.text</b>.
 
 

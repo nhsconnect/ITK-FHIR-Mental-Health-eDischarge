@@ -65,7 +65,7 @@ The Clinical summary section carries a narrative summary of the episode, where p
 
 This text section should be linked to the following FHIR Resources to provide the textual information in a coded format.
 
-- The ITK3 FHIR eDischarge does not currently support a coded clinical summary.
+- The ITK3 FHIR Mental Health eDischarge does not currently support a coded clinical summary.
 
 
 
