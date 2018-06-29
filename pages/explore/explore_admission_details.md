@@ -10,70 +10,81 @@ summary: "Gives information about the Admission details section"
 {% include custom/section.warnbanner.html %}
 
 ## Admission Details Section Content##
+The Admission details section carries information about the patient's admission. Elements should be formatted as subheadings in any HTML sent.
 
-The Admission details section carries information about the patient's admission. Elements should be rendered as subheadings in any HTML sent.
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
- <tbody>
-  <tr>
-   <td>Admission details</td>
-   <td>Details of the patient's admission and reason for admission</td>
-   <td>0..1</td>
-   <td>required</td>
-   <td>&nbsp;</td>
-  </tr>
+	<tbody>
 		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
+			<td>Admission details</td>
+			<td>Details of the patient's admission and reason for admission</td>
+			<td>0..1</td>
+			<td>R</td>
+			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
-  <tr>
-   <td>Reason for admission</td>
-   <td>The health problems and issues experienced by the patient that prompted the decision to admit to hospital e.g. chest pain, mental health crisis, blackout, fall,  a specific procedure, intervention, investigation or treatment, non compliance with treatment.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>May be a text derived from a SNOMED CT concept and/or free text.</td>
-  </tr>
-  <tr>
-   <td>Admission method</td>
-   <td>How the patient was admitted to hospital. For example: elective, emergency, maternity, transfer etc.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>One of the codes and description from the NHS Data Dictionary Admission Method</td>
-  </tr>
-  <tr>
-   <td>Legal Status on admission</td>
-   <td>Record if the patient was admitted as Informal or formal/detained.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>Record if the patient was admitted as Informal or formal/detained.</td>
-  </tr>
-  <tr>
-   <td>Source of admission</td>
-   <td>Where the patient was immediately prior to admission, e.g. usual place of residence, temporary place of residence, penal establishment. National code.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>One of the codes and description from the NHS Data Dictionary Source of Admission</td>
-  </tr>
-  <tr>
-   <td>Date/time of admission</td>
-   <td>Date and time patient admitted to hospital.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>The date of admission as recorded on the Patient Administration System (PAS)</td>
-  </tr>
- </tbody>
+		<tr>
+			<th>PRSB Element</th>
+			<th>Description</th>
+			<th>Card.</th>
+			<th>MRO*</th>
+			<th>FHIR Target and Guidance</th>		
+		</tr>
+		<tr>
+			<td>Reason for admission</td>
+			<td>The health problems and issues experienced by the patient that prompted the decision to admit to hospital e.g. chest pain, mental health crisis, blackout, fall, a specific procedure, intervention, investigation or treatment, non-compliance with treatment.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text and where supported a SNOMED CT concept carried in the CodeableConcept of the <b>Encounter.reason</b> FHIR element to indicate the reason the patient was admitted.</td>
+		</tr>
+		<tr>
+			<td>Admission method</td>
+			<td>How the patient was admitted to hospital. For example: elective, emergency, maternity, transfer etc.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text and where supported a code and description from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdmissionMethod-1">CareConnect-AdmissionMethod-1</a> carried in the CodeableConcept of the <b>Encounter.hospitalization.Extension-CareConnect-AdmissionMethod-1</b> FHIR element.</td>
+		</tr>
+
+		<tr>
+			<td>Admission method</td>
+			<td>How the patient was admitted to hospital. For example: elective, emergency, maternity, transfer etc.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text and where supported a code and description from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdmissionMethod-1">CareConnect-AdmissionMethod-1</a> carried in the CodeableConcept of the <b>Encounter.hospitalization.Extension-CareConnect-AdmissionMethod-1</b> FHIR element.</td>
+		</tr>		<tr>
+			<td>Legal Status on admission</td>
+			<td>Record if the patient was admitted as Informal or formal/detained.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</td>
+		</tr>
+		<tr>
+			<td>Source of admission</td>
+			<td>Where the patient was immediately prior to admission, e.g. usual place of residence, temporary place of residence, penal establishment. National code.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text and where supported a code and description from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1">CareConnect-SourceOfAdmission-1</a> carried in the CodeableConcept of the <b>Encounter.hospitalization.admitSource</b> FHIR element.</td>
+		</tr>
+		<tr>
+			<td>Date/time of admission</td>
+			<td>Date and time patient admitted to hospital.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>The date and time of admission as recorded on the Patient Administration System (PAS) as text and carried in the <b>Encounter.period.start</b> FHIR element.</td>
+		</tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
+	</tbody>
 </table>
+
 
 ##  Example Admission Details Section ##
 
