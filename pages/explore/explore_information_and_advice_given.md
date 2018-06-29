@@ -3,7 +3,7 @@ title: Information and Advice Given Section
 keywords:  messaging, sections
 tags: [fhir,messaging,section]
 sidebar: foundations_sidebar
-permalink: explore_information_and_given.html
+permalink: explore_information_and_avice_given.html
 summary: "Gives information about the Information and advice given section"
 ---
 
