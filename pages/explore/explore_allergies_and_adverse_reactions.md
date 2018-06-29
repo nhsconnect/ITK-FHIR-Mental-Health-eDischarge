@@ -59,21 +59,21 @@ This table should be used in conjunction with the section on [constructing clini
 			<td>Date recorded</td>
 			<td>The date that the reaction was clinically recorded/asserted. This will often equate to the date of onset of the reaction, but this may not be wholly clear from source data.</td>
 			<td>0 to 1</td>
-			<td>required</td>
+			<td>R</td>
 			<td>The date that the reaction was clinically recorded/asserted. Text and carried in <b>AllergyIntolerance.assertedDate</b> FHIR element.</td>
 		</tr>
 		<tr>
 			<td>Probability of recurrence</td>
 			<td>Probability of the reaction (allergic, adverse, intolerant) occurring</td>
 			<td>0 to 1</td>
-			<td>optional</td>
+			<td>O</td>
 			<td>Free text</td>
 		</tr>
 		<tr>
 			<td>Date first experienced</td>
 			<td>When the reaction was first experienced. May be a date or partial date (e.g. year) or text (e.g. during childhood)</td>
 			<td>0 to 1</td>
-			<td>optional</td>
+			<td>O</td>
 			<td>Free text and <b>AllergyIntolerance.onset[x]</b> FHIR element. For further information see <a href="build_allergy_lists.html#date-first-experienced">Constructing Allergy Lists (Date first experienced)</a></td>
 		</tr>
 		<tr>
