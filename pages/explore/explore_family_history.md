@@ -16,11 +16,11 @@ This section gives information on illness in family relations relevant to the he
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
  <tbody>
@@ -28,23 +28,26 @@ This section gives information on illness in family relations relevant to the he
    <td>Family history</td>
    <td>Information on illness in family relations relevant to the health or care of the patient.</td>
    <td>&nbsp;</td>
-   <td>optional</td>
-   <td>&nbsp;</td>
+   <td>O</td>
+			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
   </tr>
 		<tr>
-			<th>Element</th>
+			<th>PRSB Element</th>
 			<th>Description</th>
-			<th>Cardinality</th>
+			<th>Card.</th>
 			<th>MRO*</th>
-			<th>Values</th>
+			<th>FHIR Target and Guidance</th>		
 		</tr>
   <tr>
    <td>Family history</td>
    <td>The record of relevant illness in family relations deemed to be significant to the care or health of the patient, including mental illness and suicide, genetic information etc.</td>
    <td>0 to 1</td>
-   <td>optional</td>
-   <td>The record of relevant illnesses in family relations as volunteered by the patient or their carer or representative. Text or  text derived from (SNOMED CT). 999000771000000106 | Family history simple reference set (foundation metadata concept) |</td>
+   <td>O</td>
+   <td>Text only.</td>
   </tr>
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
  </tbody>
 </table>
 
