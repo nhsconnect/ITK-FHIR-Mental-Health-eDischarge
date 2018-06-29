@@ -10,97 +10,116 @@ summary: "Gives information about the Discharge details section"
 {% include custom/section.warnbanner.html %}
 
 ## Discharge Details Section Content##
-The Discharge details section carries details of the patient's discharge. Elements should be rendered as subheadings in any HTML sent.
+The Discharge details section carries details of the patient's discharge. Elements should be formatted as subheadings in any HTML sent.
+
 <table style="width:100%;max-width: 100%;">
 	<thead>
 		<tr>
-			<th width="18%">Section</th>
-			<th width="30%">Description</th>
-			<th width="11%">Cardinality</th>
-			<th width="11%">MRO*</th>
-			<th width="30%">Values</th>
+			<th width="15%">Section</th>
+			<th width="35%">Description</th>
+			<th width="5%">Card.</th>
+			<th width="5%">MRO*</th>
+			<th width="40%">FHIR Target and Guidance</th>
 		</tr>
 	</thead>
- <tbody>
-  <tr>
-   <td>Discharge details</td>
-   <td>The details of the patient's discharge from hospital.</td>
-   <td>&nbsp;</td>
-   <td>required</td>
-   <td>&nbsp;</td>
-  </tr>
+	<tbody>
 		<tr>
-			<th>Element</th>
-			<th>Description</th>
-			<th>Cardinality</th>
-			<th>MRO*</th>
-			<th>Values</th>
+			<td>Discharge details</td>
+			<td>The details of the patient's discharge from hospital.</td>
+			<td></td>
+			<td>R</td>
+			<td>Carried in the CodeableConcept of <b>Composition.section.code</b> FHIR element.</td>
 		</tr>
-  <tr>
-   <td>Discharging consultant</td>
-   <td>The consultant responsible for the patient at time of discharge</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>The name and identifier of the consultant from a recognised source such as the Spine Directory Service, or a local identifier. The identifier would not be displayed in the message.</td>
-  </tr>
-  <tr>
-   <td>Discharging specialty/department</td>
-   <td>The specialty or department responsible for the patient at the time of discharge</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>The date and time of discharge as recorded by the PAS or discharging system.</td>
-  </tr>
-  <tr>
-   <td>Discharge location</td>
-   <td>The ward or unit the patient was in immediately prior to discharge</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>Record of the ward or unit the patient was in immediately prior to discharge</td>
-  </tr>
-  <tr>
-   <td>Date/time of discharge</td>
-   <td>The actual date of discharge</td>
-   <td>1 only</td>
-   <td>mandatory</td>
-   <td>The date and time of discharge as recorded by the PAS or discharging system.</td>
-  </tr>
-  <tr>
-   <td>Legal Status on discharge</td>
-   <td>Record if the patient was discharged as Informal or formal/detained.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>Record if the patient was discharged as Informal or formal/detained.</td>
-  </tr>
-  <tr>
-   <td>Discharge method</td>
-   <td>The method of discharge from hospital. National codes: e.g.. patient discharged on clinical advice or with clinical consent; patient discharged him/herself or was discharged by a relative or advocate; patient died; stillbirth</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>A code from the NHS Data Dictionary Discharge Method code</td>
-  </tr>
-  <tr>
-   <td>Discharge destination cluster</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-   <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td>Discharge type</td>
-   <td>The destination of the patient on discharge from hospital. National codes e.g.. NHS-run care home.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>A code from the NHS Data Dictionary Discharge Destination</td>
-  </tr>
-  <tr>
-   <td>Discharge address</td>
-   <td>Address to which patient discharged. Only complete where this is not the usual place of residence.</td>
-   <td>0 to 1</td>
-   <td>required</td>
-   <td>If the patient is discharged to their normal place of residence, no address is recorded on the discharge summary. Otherwise, an address other than the patient's usual place of residence may be provided by the patient or their representative.</td>
-  </tr>
- </tbody>
+		<tr>
+			<th>PRSB Element</th>
+			<th>Description</th>
+			<th>Card.</th>
+			<th>MRO*</th>
+			<th>FHIR Target and Guidance</th>	
+		</tr>
+
+		<tr>
+			<td>Discharging consultant</td>
+			<td>The consultant responsible for the patient at time of discharge</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>The name and identifier of the consultant from a recognised source such as the Spine Directory Service, or a local identifier. Any identifiers <b>MUST NOT</b> be carried as text. The following FHIR Elements <b>SHOULD</b> be populated in the Practitioner and PractitionerRole Resources: 
+			<ul>
+			<li><b>Encounter.participant.individual.<br/>Reference.Practitioner.identifier</b></li>
+			<li><b>Encounter.participant.individual.<br/>Reference.Practitioner.name</b></li>
+			<li><b>PractitionerRole.code</b></li>
+			<li><b>PractitionerRole.identifier</b></li></ul></td>
+		</tr>		
+
+
+<tr>
+			<td>Discharging specialty/department</td>
+			<td>The specialty or department responsible for the patient at the time of discharge</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text for either the main specialty of the discharging clinician (as held on the Spine Directory Service), or the department from which the patient is discharged. The specialty <b>SHOULD</b> be populated in the <b>PractitionerRole.specialty</b> FHIR element. The profile is currently bound to the FHIR ValueSet <a href="http://hl7.org/fhir/stu3/valueset-c80-practice-codes.html">c80-practice-codes</a> as preferred. This is proposed to be replaced by NHS Data main specialty code and therfore the current guidance is to not use the preferred ValueSet but to replace it using a code from <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/m/main_specialty_code_de.asp?shownav=1">MAIN SPECIALTY CODE</a>. The FHIR CodeSystem element should be populated with "https://www.datadictionary.nhs.uk". As an alternative this element may be populated with a SNOMED CT concept and the FHIR CodeSystem element populated with "http://snomed.info/sct".
+
+Note further guidance will be issues in a later release of the specification.</td>
+		</tr>	
+
+
+<tr>
+			<td>Discharge location</td>
+			<td>The ward or unit the patient was in immediately prior to discharge</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text to carry the ward name and identifier (if available) prior to discharge as recorded on the hospital discharging system. This information <b>SHOULD</b> also be carried in the FHIR element <b>Encounter.location.Reference.Location.name</b> and <b>Encounter.location.Reference.Location.identifier</b> </td>
+		</tr>
+		<tr>
+			<td>Date/time of discharge</td>
+			<td>The actual date of discharge</td>
+			<td>1 only</td>
+			<td>M</td>
+			<td>Text indicating date and time of discharge as recorded by the PAS or discharging system. This <b>SHOULD</b> also be carried in the FHIR element <b>Encounter.period.end</b>.</td>
+		</tr>
+
+		<tr>
+			<td>Legal Status on discharge</td>
+			<td>Record if the patient was discharged as Informal or formal/detained.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Record if the patient was discharged as Informal or formal/detained carried as text.</td>
+		</tr>
+		<tr>
+			<td>Discharge method</td>
+			<td>The method of discharge from hospital. National codes: e.g. patient discharged on clinical advice or with clinical consent; patient discharged him/herself or was discharged by a relative or advocate; patient died; stillbirth</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text - Currently not to be coded for Transfer of Care Documents</td>
+		</tr>
+		<tr>
+			<th>Discharge destination cluster</th>
+			<th>The destination of the patient on discharge. National codes. E.g., High Dependency Unit.</th>
+			<th>0 to 1</th>
+			<th>R</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>Discharge type</td>
+			<td>The destination of the patient on discharge from hospital. National codes e.g.. NHS-run care home.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Text and a code from the NHS Data Dictionary Discharge Destination carried in the CodeableConcept of the FHIR element <b>Encounter.hospitalization.dischargeDisposition</b></td>
+		</tr>
+		<tr>
+			<td>Discharge address</td>
+			<td>Address to which patient discharged. Only complete where this is not the usual place of residence.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>If the patient is discharged to their normal place of residence, no address is recorded on the discharge summary. Otherwise, an address other than the patient's usual place of residence may be provided by the patient or their representative. Text and an address carried in the FHIR element <b>Encounter.location.Reference.Location.address</b></td>
+		</tr>
+	
+		<tr>
+		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
+		</tr>
+	</tbody>
 </table>
+
 
 ##  Example Discharge Section ##
 
