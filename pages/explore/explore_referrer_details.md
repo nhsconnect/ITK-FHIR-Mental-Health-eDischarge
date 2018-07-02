@@ -50,7 +50,7 @@ The Referrer details section carries a narrative summary of the episode. Where p
 			<li>Referrer Grade - <b>Text Only</b></li>
 			<li>Referring Organisation Name - <b>Organization.name</b></li>
 			<li>Referring Organisation Identifier - <b>Organization.identifier</b></li>
-			<li>Referrer Contact details - <b>PractitionerRole.telecom</b> or <b>Organization.telecom</b> </li>
+			<li>Referrer Contact details may be carried in - <b>PractitionerRole.telecom</b> <b>Organization.telecom</b> <b>Practitioner.telecom</b> as required/available.</li>
 			<li>Referrer Speciality - <b>PractitionerRole.specialty</b></li>
 </ul>
 	
