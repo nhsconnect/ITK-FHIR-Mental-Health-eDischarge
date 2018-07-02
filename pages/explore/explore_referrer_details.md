@@ -45,12 +45,13 @@ The Referrer details section carries a narrative summary of the episode. Where p
 			<td>R</td>
 			<td>The referrer details are sent as text and the following FHIR elements.
 			<ul>
-			<li>Name - <b>Practitioner.name</b></li>
-			<li>Role - <b>PractitionerRole.code</b></li>
-			<li>Grade - <b>Text Only</b></li>
-			<li>Organisation - <b>Organization.name</b></li>
-			<li>Contact details - <b>PractitionerRole.telecom</b> or <b>Organization.telecom</b> </li>
-			<li>Speciality - <b>PractitionerRole.specialty</b></li>
+			<li>Referrer Name - <b>Practitioner.name</b></li>
+			<li>Referrer Role - <b>PractitionerRole.code</b></li>
+			<li>Referrer Grade - <b>Text Only</b></li>
+			<li>Referring Organisation Name - <b>Organization.name</b></li>
+			<li>Referring Organisation Identifier - <b>Organization.identifier</b></li>
+			<li>Referrer Contact details - <b>PractitionerRole.telecom</b> or <b>Organization.telecom</b> </li>
+			<li>Referrer Speciality - <b>PractitionerRole.specialty</b></li>
 </ul>
 	
 
