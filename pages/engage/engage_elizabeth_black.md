@@ -7,7 +7,7 @@ permalink: engage_elizabeth_black.html
 summary: "Example scenario - Elizabeth Black Mental Health Discharge Summary"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 

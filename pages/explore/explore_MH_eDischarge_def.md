@@ -7,7 +7,7 @@ permalink: explore_MH_eDischarge_def.html
 summary: "Mental Health eDischarge Message Definition"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Mental Health eDischarge Message Definition Overview ##
 

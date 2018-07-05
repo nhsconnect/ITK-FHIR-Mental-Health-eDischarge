@@ -7,7 +7,7 @@ permalink: explore_interactions.html
 summary: "ITK3 Mental Health eDischarge Interactions"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 

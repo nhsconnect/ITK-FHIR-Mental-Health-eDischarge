@@ -7,7 +7,7 @@ permalink: explore_document_profiles.html
 summary: "ITK3 Mental Health eDischarge FHIR Document profile"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 
 ## ITK3 Mental Health eDischarge FHIR Document Bundle ##

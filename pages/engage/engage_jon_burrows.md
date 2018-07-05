@@ -7,7 +7,7 @@ permalink: engage_jon_burrows.html
 summary: "Example scenario - Jon Burrows Mental Health Discharge Summary"
 ---
 
-{% include custom/search.warnbanner.html %}
+
 
 ## Background ##
 
