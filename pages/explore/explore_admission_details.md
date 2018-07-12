@@ -51,14 +51,7 @@ The Admission details section carries information about the patient's admission.
 			<td>R</td>
 			<td>Text and where supported a code and description from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdmissionMethod-1">CareConnect-AdmissionMethod-1</a> carried in the CodeableConcept of the <b>Encounter.hospitalization.Extension-CareConnect-AdmissionMethod-1</b> FHIR element.</td>
 		</tr>
-
-		<tr>
-			<td>Admission method</td>
-			<td>How the patient was admitted to hospital. For example: elective, emergency, maternity, transfer etc.</td>
-			<td>0 to 1</td>
-			<td>R</td>
-			<td>Text and where supported a code and description from the ValueSet <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdmissionMethod-1">CareConnect-AdmissionMethod-1</a> carried in the CodeableConcept of the <b>Encounter.hospitalization.Extension-CareConnect-AdmissionMethod-1</b> FHIR element.</td>
-		</tr>		<tr>
+	<tr>
 			<td>Legal Status on admission</td>
 			<td>Record if the patient was admitted as Informal or formal/detained.</td>
 			<td>0 to 1</td>
@@ -88,7 +81,7 @@ The Admission details section carries information about the patient's admission.
 
 ##  Example Admission Details Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/063615bfb87522015e0c37ef7f06d4fd.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/7364383e142d9bff7aad0a5dc34ae56d.js"></script>
 
 ## Coded Resources ##
 

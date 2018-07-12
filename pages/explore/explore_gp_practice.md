@@ -71,7 +71,7 @@ The GP practice section contains details of the patients GP practice. PRSB Eleme
 
 ## Example GP Practice Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/0254c9b07fa77cd926dbe0b5a68ff4d8.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/18e678cac65f950a73ff2db1e2f443a3.js"></script>
 
 
 

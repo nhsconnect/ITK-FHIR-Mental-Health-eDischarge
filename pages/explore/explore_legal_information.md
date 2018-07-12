@@ -111,7 +111,7 @@ The Legal information section carries information about legal information releva
 
 ## Example Legal Information Section ##
 
-<script src="https://gist.github.com/IOPS-DEV/407d219b7bcc5f70343690974d11e6b5.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/029854e968d265a720836e4a33e9bfe8.js"></script>
 
 ## Coded Resources ##
 
