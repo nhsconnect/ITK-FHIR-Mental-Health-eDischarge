@@ -8,7 +8,7 @@ toc: false
 summary: A brief introduction to getting started with the ITK3 Mental Health eDischarge.
 ---
 
-{% include custom/versions_warning.html %}
+<!-- {% include custom/versions_warning.html %} -->
 
 ## Introduction ##
 
