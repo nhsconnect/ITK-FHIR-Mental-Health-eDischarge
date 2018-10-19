@@ -9,7 +9,7 @@ summary: "Gives information about the Family history section"
 
 {% include custom/section.warnbanner.html %}
 
-## Family History Section Content##
+## Family History Section content ##
 This section gives information on illness in family relations relevant to the health or care of the patient. Elements should be rendered as subheadings in any HTML sent.
 
 
