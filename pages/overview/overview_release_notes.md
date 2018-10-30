@@ -70,6 +70,7 @@ summary: Summary release notes of the versions released in ITK3 Mental Health eD
 **Diagrams**
 
 - Section overview diagram updated to remove reference to organization on Person Completing Record section
+- Section overview digram updated to correct cardinally of Family history changed from 1..1 Mandatory to 0..1 Optional
 
 ## 2.4.0-beta ##
 
