@@ -62,7 +62,7 @@ The Plan and requested actions section carries information about planned and req
 			<td>Care planning arrangements</td>
 			<td>Record if CPA (Care Programme Approach) documentation is available and how and where it can be accessed; care and treatment plan in Wales and Scotland. In Wales this is superseded by the Mental Health Measure 2010.</td>
 			<td>0 to many</td>
-			<td>O</td>
+			<td>R</td>
 			<td>The Care planning arrangements in text.</td>
 		</tr>
 

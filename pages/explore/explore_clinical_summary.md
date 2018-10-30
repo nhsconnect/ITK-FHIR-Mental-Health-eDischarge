@@ -45,6 +45,13 @@ The Clinical summary section carries a narrative summary of the episode, where p
 			<td>Free text</td>
 		</tr>
 		<tr>
+			<td>Formulation</td>
+			<td>An account, shared by a therapist and person, of the personal meaning and origins of a person’s difficulties. This is viewed in the context of multiple factors including relationships, social circumstances and life events and will indicate the most helpful way forward.</td>
+			<td>0 to 1</td>
+			<td>R</td>
+			<td>Free text</td>
+		</tr>
+		<tr>
 			<td>Treatments and interventions and changes made to treatments.</td>
 			<td>The relevant treatments and interventions which the patient received during the inpatient stay. Include psychological therapies. All medications should be recorded under the medications section.</td>
 			<td>0 to 1</td>

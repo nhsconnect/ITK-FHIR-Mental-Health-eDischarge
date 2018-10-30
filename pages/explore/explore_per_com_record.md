@@ -67,6 +67,13 @@ The Person completing record section carries information about the person who co
 			<td>The main clinical specialty as held on the source system sent as text and the specialty <b>SHOULD</b>  be populated in the <b>PractitionerRole.specialty</b>  FHIR element. The profile is currently bound to the FHIR ValueSet <a href="http://hl7.org/fhir/stu3/valueset-c80-practice-codes.html">c80-practice-codes</a> as preferred. This is proposed to be replaced by NHS Data main specialty code and therefore the current guidance is to not use the preferred ValueSet but to replace it using a code from <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/m/main_specialty_code_de.asp?shownav=1">MAIN SPECIALTY CODE</a>. The FHIR CodeSystem element should be populated with "https://www.datadictionary.nhs.uk". As an alternative this element may be populated with a SNOMED CT concept and the FHIR CodeSystem element populated with "http://snomed.info/sct".</td>
 		</tr>
 		<tr>
+			<td>Professional identifier</td>
+			<td>Professional identifier for the person completing the record e.g., GMC number, HCPC number etc or the personal identifier used by the local organisation.</td>
+			<td>0 to 1</td>
+			<td>O</td>
+			<td>The identifier of the consultant from a recognised source such as the Spine Directory Service, or a local identifier. Any identifiers MUST NOT be carried as text. The following FHIR Elements SHOULD be populated in the Practitioner Resource: PractitionerRole.identifier</td>
+		</tr>
+		<tr>
 			<td>Date and time completed</td>
 			<td>The date and time the record was updated.</td>
 			<td>1 only</td>
@@ -76,9 +83,16 @@ The Person completing record section carries information about the person who co
 		<tr>
 			<td>Contact details</td>
 			<td>Contact details of the person completing the record. For example, a phone number, email address. Contact details are used to resolve queries about the record entry.</td>
-			<td>0 to many</td>
-			<td>O</td>
+			<td>1 only</td>
+			<td>M</td>
 			<td>The contact details may be for the individual completing the record, or wider team details (for example a phone number for a hospital department). This will be sent as text and where supported in the FHIR elements <b>PractitionerRole.telecom</b> or <b>Practitioner.telecom</b> or <b>Organization.telecom</b>.</td>
+		</tr>
+		<tr>
+			<td>Organisation</td>
+			<td>The organisation the person completing the record works for.</td>
+			<td>1 only</td>
+			<td>M</td>
+			<td>An ODS identifier for the organisation or site, the name of the organisation or site, and a postal address (if available).</td>
 		</tr>
 		<tr>
 		<td colspan="5"><b>* M=Mandatory R=Required O=Optional</b></td>
