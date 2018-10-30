@@ -44,6 +44,7 @@ summary: Summary release notes of the versions released in ITK3 Mental Health eD
 - Allergy and adverse reactions.Type of reaction
 - Allergy and adverse reactions.Evidence
 
+
 - Clinical summary section added Formulation element
 - Medications and Medical Devices section added Quantity supplied element
 - Medications and Medical Devices section removed comment element from Medication change summary cluster
