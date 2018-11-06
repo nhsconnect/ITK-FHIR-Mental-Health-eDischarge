@@ -8,8 +8,6 @@ summary: "ITK3 Mental Health eDischarge FHIR Document profile"
 ---
 
 
-
-
 ## ITK3 Mental Health eDischarge FHIR Document Bundle ##
 
 The document bundle is a collection of FHIR Resource profiles combined to support Mental Health eDischarge (inpatient discharge summary) FHIR Documents.
