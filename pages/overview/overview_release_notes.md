@@ -17,7 +17,11 @@ summary: Summary release notes of the versions released in ITK3 Mental Health eD
 
 Inconsistencies of section headings between pages have been rectified.
 
-## 2.5.0-Release Candidate ##
+**Message Definition**
+
+- MessageDefinition reference has been updated to [ITK-MH-eDischarge-MessageDefinition-4](https://fhir.nhs.uk/STU3/MessageDefinition/ITK-MH-eDischarge-MessageDefinition-4).
+
+## 2.5.0-beta ##
 
 **General Page Issues**
 
