@@ -1,7 +1,7 @@
 entries:
 - title: ITK3 Mental Health eDischarge 
   product: ITK3 Mental Health eDischarge
-  version: 2.5.0-beta
+  version: 2.6.0-beta
   levels: one
   folders:
 
@@ -84,7 +84,7 @@ entries:
           url: /explore_allergies_and_adverse_reactions.html
           output: web
         - title: Assessment scales
-          url: /explore_assessment_scales.html
+          url: /explore_assessment_scale.html
           output: web
         - title: Clinical summary
           url: /explore_clinical_summary.html

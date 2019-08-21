@@ -88,7 +88,7 @@ The “must support” property has been added to all the elements that must be 
 		</td>
 		<td>887141000000103</td>
     	<td>0..1</td>
-		<td>Required</td>
+		<td>Optional</td>
 		<td>0</td>
 	</tr>
 	<tr>
@@ -106,7 +106,7 @@ The “must support” property has been added to all the elements that must be 
 		</td>
 		<td>887161000000102</td>
     	<td>0..1</td>
-		<td>Mandatory</td>
+		<td>Required</td>
 		<td>2</td>
 	</tr>
 	<tr>
@@ -133,12 +133,12 @@ The “must support” property has been added to all the elements that must be 
 		</td>
 		<td>887111000000104</td>
     	<td>0..1</td>
-		<td>optional</td>
+		<td>Optional</td>
 		<td>1</td>
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_gp_practice.html">GP practice</a>
+			<a href="explore_gp_practice.html">GP Practice</a>
 		</td>
 		<td>886711000000101</td>
     	<td>1..1</td>
@@ -174,7 +174,7 @@ The “must support” property has been added to all the elements that must be 
 	</tr>
 	<tr>
 		<td>
-			<a href="explore_legal_info.html">Legal information</a>
+			<a href="explore_legal_info.html">Legal Information</a>
 		</td>
 		<td>886961000000102</td>
     	<td>0..1</td>
