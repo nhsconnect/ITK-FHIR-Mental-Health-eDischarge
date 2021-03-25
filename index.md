@@ -14,7 +14,7 @@ summary: A brief introduction to getting started with the ITK3 Mental Health eDi
 
 The Transfer of Care Mental Health eDischarge  Specification supports the following care communications:
 
-**Mental Health eDischarge (discharge summary to GP for mental health adult patients) Document** - An FHIR Document containing Transfer of Care information supporting a discharge summary to GP for mental health adult patients..
+**Mental Health eDischarge (discharge summary to GP for mental health adult patients) Document** - An FHIR Document containing Transfer of Care information supporting a discharge summary to GP for mental health adult patients. Paediatric mental health discharges are not within the scope of this use case.
    
 FHIR Messaging components specified within this site have been developed by NHS Digital and use some of the CareConnect profiles created in collaboration with the INTEROPen community. 
 
