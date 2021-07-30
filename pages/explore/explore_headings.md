@@ -292,7 +292,7 @@ This diagram illustrates the sections used in Mental Health eDischarge and which
 
 
 The text sections are carried in the FHIR Composition Resource. 
-This is profiled as the [ITK-MH-Compostion](https://fhir.nhs.uk/STU3/StructureDefinition/ITK-MH-Composition-1)
+This is profiled as the [CareConnect-ITK-MH-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-ITK-MH-Composition-1)
 
 
 
